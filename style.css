@@ -1,0 +1,113 @@
+
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr auto auto auto;
+	}
+
+
+	/*.grid div:nth-child(even){b
+		background-color: red;
+	}
+	.grid div:nth-child(odd){
+		background-color: rgba(255, 255, 255, 0.6)
+	}
+	*/
+
+	.title{
+		position:absolute;
+		background-color: rgba(217, 205, 204, 0.9);
+		height:10vh;
+		width:100%;
+		overflow:auto;
+
+
+	}
+	.header{
+		height:100vh;
+		background: url("kaiseki5.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		}
+	.about-header{
+		background: url("kaiseki1.jpg");
+		}
+	.illustrations-header{
+		background: url("kaiseki2.jpg");
+		background-size:100%;
+		
+	}
+	.media-header{
+		background: url("kaiseki3.jpg");
+		
+	}
+	.signup-header{
+		background: url("kaiseki4.jpg");
+		background-size:100%;
+	}
+	.content{
+			/*background-color: rgba(255, 255, 0, 0.6); */
+			padding-left: 20vh;
+			padding-right: 20vh;
+			}
+	.footer{
+			background-color: #A20000;;
+			color: white;
+			text-align: center;
+	}
+
+
+	.header-text{
+		position: absolute;
+		white-space: nowrap;
+		background-color: rgba(23, 16, 24, 0.3);
+		color:white;
+		top:73%;
+		left:1%;
+		font-size: 5em;
+	}
+
+	body{margin: 0; padding: 0; }
+
+	.logo {
+		float:left;
+		height:inherit;
+		padding-left: 30px;
+	}
+
+	#nav {
+		float:right;
+		margin: 0px 0 0 0;
+	}
+
+	.nav-ul {
+		list-style: none;
+		margin: 0;
+		font-size:18px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+	.nav-li{
+		float:left;
+	}
+
+
+	.nav-li a {
+		display:block;
+		padding: 3.4vh;
+		text-align:center;
+		text-decoration:none;
+		color:#A20000;
+
+	}
+
+	.nav-li:hover a{
+		color:white;
+		background-color: #A20000;
+		transition: all 0.5s;
+	}
